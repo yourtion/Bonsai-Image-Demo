@@ -500,7 +500,7 @@ if ($nodeVer -and $npmVer) {
 }
 
 # ────────────────────────────────────────────────────
-#  9. Download the default model (skippable)
+#  8. Download the default model (skippable)
 # ────────────────────────────────────────────────────
 if ($env:SKIP_DOWNLOAD -ne '1') {
     $variant = if ($env:BONSAI_VARIANT) { $env:BONSAI_VARIANT } else { 'ternary' }
